@@ -23,7 +23,7 @@ public class QuestionsAnswersTest {
     public void setup() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--no-sandbox","--headless=new","--disable-dev-shm-usage");
-        driver = new ChromeDriver(options);
+        driver = new ChromeDriver();
         driver.get("https://qa-scooter.education-services.ru/");
     }
 
